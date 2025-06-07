@@ -58,6 +58,9 @@ DocumentSimilarity-Hadoop/
 ├── logs/                 # Hadoop job logs/screenshots (optional)
 ├── README.md             # Project documentation
 └── .git/                 # Git repository
+```
+
+---
 
 # 🚀 How to Execute the Project
 
@@ -147,3 +150,4 @@ hdfs dfs -cat /output/part-00000 > logs/output_raw.txt
 ```bash
 cat logs/output_final.txt
 ```
+
